@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangen kamu🥺💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Step 1: Input name -->
+    <div class="card" id="nameCard">
+        <h1>Hai siska imut 💕</h1>
+        <p>Kamu suka di panggil apa? 🥰</p>
+        <input type="text" id="nickname" placeholder="contoh: ayang, beb, panggilan khusus..." />
+        <button id="submitName">Lanjut 💌</button>
+    </div>
+
+    <!-- Step 2: Minta maaf -->
+    <div class="card" id="apologyCard" style="display: none;">
+        <h1>kamu mau ga ngedate sama aku🥺💖</h1>
+        <p id="apologyText">Aku beneran kangen sama kamu sis.</p>
+        <div class="btn-group">
+            <button id="yesBtn">Mau 💖</button>
+            <button id="noBtn">Enggak 😠</button>
+        </div>
+    </div>
+
+    <!-- signature placed under the card(s) -->
+    <div class="footer">
+        Made by
+        Asas
+        </a>
+        💖
+    </div>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2 id="popupTitle"></h2>
+            <p id="popupMsg"></p>
+            <div class="hearts" id="hearts"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
